@@ -1,7 +1,7 @@
-const USUARIO = "Mollusc1njection";               
+const USUARIO = "AgentRayx";               
 const REPOSITORIO = "Phantom-Gladiators";   
 const ARCHIVO = "PhantomGladiators-Setup.exe"; 
-const ARCHIVO_DLC = "PhantomGladiators-DLC.exe"; 
+const ARCHIVO_DLC = "PHANTOM_DLL.exe"; 
 
 const urlDescarga = `https://github.com/${USUARIO}/${REPOSITORIO}/releases/latest/download/${ARCHIVO}`;
 
