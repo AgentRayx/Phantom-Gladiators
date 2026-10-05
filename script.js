@@ -1,12 +1,8 @@
-/* ============================================================
-   CONFIGURACIÓN: cambia SOLO estas tres líneas
-   ============================================================ */
-const USUARIO = "Mollusc1njection";               // tu usuario de GitHub
-const REPOSITORIO = "Phantom-Gladiators";   // nombre de tu repositorio
-const ARCHIVO = "PhantomGladiators-Setup.exe"; // nombre exacto del .exe en la Release
-const ARCHIVO_DLC = "PhantomGladiators-DLC.exe"; // nombre exacto del .exe del DLC (en la misma Release)
+const USUARIO = "Mollusc1njection";               
+const REPOSITORIO = "Phantom-Gladiators";   
+const ARCHIVO = "PhantomGladiators-Setup.exe"; 
+const ARCHIVO_DLC = "PhantomGladiators-DLC.exe"; 
 
-// Enlace que siempre apunta a la última Release
 const urlDescarga = `https://github.com/${USUARIO}/${REPOSITORIO}/releases/latest/download/${ARCHIVO}`;
 
 const urlDLC = `https://github.com/${USUARIO}/${REPOSITORIO}/releases/latest/download/${ARCHIVO_DLC}`;
@@ -14,11 +10,9 @@ const urlDLC = `https://github.com/${USUARIO}/${REPOSITORIO}/releases/latest/dow
 document.querySelectorAll("[data-dlc]").forEach((boton) => { boton.href = urlDLC; });
 
 document.querySelectorAll("[data-download]").forEach((boton) => {
-  // El botón del hero solo baja a la sección de descarga; el grande descarga el .exe
   if (boton.classList.contains("btn-big")) boton.href = urlDescarga;
 });
 
-/* ---------- Espíritus flotando en el hero ---------- */
 (function () {
   const canvas = document.getElementById("spirits");
   if (!canvas || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
@@ -44,7 +38,7 @@ document.querySelectorAll("[data-download]").forEach((boton) => {
       r: 0.8 + Math.random() * 2.2,
       vy: 0.15 + Math.random() * 0.45,
       deriva: Math.random() * Math.PI * 2,
-      calida: Math.random() < 0.3, // algunas brasas rojizas entre los espíritus
+      calida: Math.random() < 0.3, 
     };
   }
 
