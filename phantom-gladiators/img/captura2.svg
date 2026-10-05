@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+<defs>
+<linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d0818"/><stop offset="1" stop-color="#2a1440"/></linearGradient>
+<radialGradient id="m"><stop offset="0" stop-color="#f6f1ff"/><stop offset="1" stop-color="#8d7fb8"/></radialGradient>
+<filter id="g"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="800" height="450" fill="url(#s)"/>
+<circle cx="620" cy="90" r="46" fill="url(#m)"/>
+<circle cx="620" cy="90" r="70" fill="#8fe3f2" opacity=".15" filter="url(#g)"/>
+<path d="M56 280 V190 Q103 130 150 190 V280Z" fill="#1b1430" stroke="#c8964b" stroke-opacity=".35"/><path d="M176 280 V190 Q223 130 270 190 V280Z" fill="#1b1430" stroke="#c8964b" stroke-opacity=".35"/><path d="M296 280 V190 Q343 130 390 190 V280Z" fill="#1b1430" stroke="#c8964b" stroke-opacity=".35"/><path d="M416 280 V190 Q463 130 510 190 V280Z" fill="#1b1430" stroke="#c8964b" stroke-opacity=".35"/><path d="M536 280 V190 Q583 130 630 190 V280Z" fill="#1b1430" stroke="#c8964b" stroke-opacity=".35"/><path d="M656 280 V190 Q703 130 750 190 V280Z" fill="#1b1430" stroke="#c8964b" stroke-opacity=".35"/><rect x="30" y="150" width="26" height="130" fill="#0a0713"/><path d="M30 150 Q43 128 56 150Z" fill="#0a0713"/><rect x="150" y="150" width="26" height="130" fill="#0a0713"/><path d="M150 150 Q163 128 176 150Z" fill="#0a0713"/><rect x="270" y="150" width="26" height="130" fill="#0a0713"/><path d="M270 150 Q283 128 296 150Z" fill="#0a0713"/><rect x="390" y="150" width="26" height="130" fill="#0a0713"/><path d="M390 150 Q403 128 416 150Z" fill="#0a0713"/><rect x="510" y="150" width="26" height="130" fill="#0a0713"/><path d="M510 150 Q523 128 536 150Z" fill="#0a0713"/><rect x="630" y="150" width="26" height="130" fill="#0a0713"/><path d="M630 150 Q643 128 656 150Z" fill="#0a0713"/><rect x="750" y="150" width="26" height="130" fill="#0a0713"/><path d="M750 150 Q763 128 776 150Z" fill="#0a0713"/>
+<rect y="280" width="800" height="170" fill="#2a1d2f"/>
+<rect y="280" width="800" height="6" fill="#c8964b" opacity=".5"/>
+<g transform="translate(250,0) scale(1,1)">
+<ellipse cx="0" cy="372" rx="34" ry="8" fill="#000" opacity=".4"/>
+<path d="M-18 372 V318 Q0 300 18 318 V372Z" fill="#a8283f" opacity=".85"/>
+<circle cx="0" cy="296" r="14" fill="#a8283f" opacity=".9"/>
+<ellipse cx="-5" cy="296" rx="4" ry="2" fill="#8fe3f2"/><ellipse cx="6" cy="296" rx="4" ry="2" fill="#8fe3f2"/>
+<path d="M18 330 L52 292" stroke="#e3b872" stroke-width="4" stroke-linecap="round"/>
+</g><g transform="translate(560,0) scale(-1,1)">
+<ellipse cx="0" cy="372" rx="34" ry="8" fill="#000" opacity=".4"/>
+<path d="M-18 372 V318 Q0 300 18 318 V372Z" fill="#5fa8b8" opacity=".85"/>
+<circle cx="0" cy="296" r="14" fill="#5fa8b8" opacity=".9"/>
+<ellipse cx="-5" cy="296" rx="4" ry="2" fill="#8fe3f2"/><ellipse cx="6" cy="296" rx="4" ry="2" fill="#8fe3f2"/>
+<path d="M18 330 L52 292" stroke="#e3b872" stroke-width="4" stroke-linecap="round"/>
+</g>
+<text x="400" y="420" text-anchor="middle" font-family="Georgia,serif" font-size="20" fill="#efe6d4" opacity=".8">La cripta de los campeones</text>
+<text x="400" y="440" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#b9b0c9" opacity=".8">Imagen de ejemplo: reemplázala por una captura real de tu juego</text>
+</svg>
